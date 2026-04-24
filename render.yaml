@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-music-bot
+    name: telegram-bot
     env: node
     buildCommand: npm install
     startCommand: npm start
@@ -9,3 +9,5 @@ services:
         sync: false
       - key: YOUTUBE_API_KEY
         sync: false
+      - key: WEATHER_API_KEY
+        value: deae5206758c44f38b0184151232208
