@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-music-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: YOUTUBE_API_KEY
+        sync: false
