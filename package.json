@@ -1,7 +1,7 @@
 {
-  "name": "telegram-music-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Telegram Bot tải nhạc YouTube",
+  "description": "Bot Telegram - Thời tiết & Tải nhạc YouTube",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -10,6 +10,6 @@
     "node-telegram-bot-api": "^0.64.0",
     "ytdl-core": "^4.11.5",
     "axios": "^1.6.0",
-    "fs": "0.0.1-security"
+    "moment-timezone": "^0.5.43"
   }
 }
